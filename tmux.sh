@@ -41,7 +41,7 @@ if ! tmux has-session -t $SESSION_NAME 2>/dev/null; then
     tmux select-pane -D
 
     echo "session created successfully ✔️"
-    echo "run 'bash dev.sh' one more time to connect to the session"
+    echo "run 'bash tmux.sh' one more time to connect to the session"
 else
     tmux attach-session -t $SESSION_NAME
 fi

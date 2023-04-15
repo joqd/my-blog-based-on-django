@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'django_browser_reload',
     'tailwind',
     'theme',
+    'authentication',
 ]
 
 MIDDLEWARE = [

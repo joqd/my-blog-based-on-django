@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: anjoman-regular;
+    src: url(https://cdn.jsdelivr.net/gh/abolphazl/box/fonts/anjoman-regular.woff);
+}
+
+@font-face {
+    font-family: anjoman-light;
+    src: url(https://cdn.jsdelivr.net/gh/abolphazl/box/fonts/anjoman-light.woff);
+}
+
+@font-face {
+    font-family: anjoman-bold;
+    src: url(https://cdn.jsdelivr.net/gh/abolphazl/box/fonts/anjoman-bold.woff);
+}
+
+@font-face {
+    font-family: product-sans-bold;
+    src: url(https://cdn.jsdelivr.net/gh/abolphazl/box/fonts/product-sans-bold.ttf);
+}
+
+@font-face {
+    font-family: vazirmatn-regular;
+    src: url(https://cdn.jsdelivr.net/gh/abolphazl/box/fonts/vazirmatn-regular.woff2);
+}
+
+.anjoman       {font-family: 'anjoman-regular'}
+.anjoman-light {font-family: 'anjoman-light'}
+.anjoman-bold  {font-family: 'anjoman-bold'}
+.product-sans-bold  {font-family: 'product-sans-bold'}
+.vazirmatn-regular  {font-family: 'vazirmatn-regular'}

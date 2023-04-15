@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}Home{% endblock title %}
+
+
+{% block content %}
+<section class="flex justify-between items-center space-y-2">
+    <div class="text-2xl anjoman-bold">
+        وبلاگ آکرمن
+    </div>
+    <svg class="fill-slate-50 h-10 w-10" viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+        <path fill='currentColor' d='M22 12c0 5.523-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2s10 4.477 10 10Z'
+            opacity=0.4 />
+        <path fill='currentColor' fillRule='evenodd'
+            d='M8.55 16.6a.75.75 0 0 1-.15-1.05l2.1-2.8a1.25 1.25 0 0 0 0-1.5l-2.1-2.8a.75.75 0 0 1 1.2-.9l2.1 2.8a2.75 2.75 0 0 1 0 3.3l-2.1 2.8a.75.75 0 0 1-1.05.15Zm5 0a.75.75 0 0 1-.15-1.05l2.1-2.8a1.25 1.25 0 0 0 0-1.5l-2.1-2.8a.75.75 0 0 1 1.2-.9l2.1 2.8a2.75 2.75 0 0 1 0 3.3l-2.1 2.8a.75.75 0 0 1-1.05.15Z'
+            clipRule='evenodd' />
+    </svg>
+</section>
+
+<section class="flex flex-col space-y-2">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-2 product-sans-bold">
+        <a href="#"
+            class="p-10 rounded-3xl text-blue-950 bg-blue-400 text-3xl flex justify-center items-center">AI</a>
+        <a href="#"
+            class="p-10 rounded-3xl text-green-950 bg-green-400 text-3xl flex justify-center items-center">Django</a>
+        <a href="#"
+            class="p-10 rounded-3xl text-yellow-950 bg-yellow-300 text-3xl flex justify-center items-center">Python</a>
+        <a href="#"
+            class="p-10 rounded-3xl text-[#3b2e2a] bg-[#e1e1db] text-3xl flex justify-center items-center">Rust</a>
+    </div>
+</section>
+
+<section class="flex flex-col space-y-2 vazirmatn-regular">
+    <div class="text-xl anjoman-bold">آخرین مطالب</div>
+    
+    <ol class="list-inside list-disc text-lg">
+        <li><a href="#"><span>تحلیل بازار ارز های دیجیتال در پایتون</span><span class="text-sm opacity-60 mx-1">۲ روز پیش</span></a></li>
+        <li><a href="#"><span>تحلیل تصویر در پایتون</span><span class="text-sm opacity-60 mx-1">۳ روز پیش</span></a></li>
+    </ol>
+</section>
+{% endblock content %}
